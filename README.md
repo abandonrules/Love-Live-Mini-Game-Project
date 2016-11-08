@@ -5,7 +5,10 @@ Developed for a contest entry in the [**Love Live Extra Life 2016**](http://www.
 An [SIF](https://www.school-fes.klabgames.net/) fan-game developed in Unity that uses Twitch IRC.
 
 Mediafire Download [link](http://www.mediafire.com/file/6e7w3cq8c9r2gab/LLMGP.rar)  
-Love Live Extra Life Showcase [link](https://youtu.be/o-3y8qms5Lw)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=o-3y8qms5Lw
+" target="_blank"><img src="http://img.youtube.com/vi/o-3y8qms5Lw/0.jpg" 
+alt="Thumbnail" width="240" height="180" border="10" /></a>  
 
 If you have any questions or concerns, feel free to contact me at  
 byron.custodio@gmail.com
