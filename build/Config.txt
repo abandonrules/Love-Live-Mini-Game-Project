@@ -1,0 +1,34 @@
+=======================
+Instructions
+
+- Do NOT rename this file
+
+- ONLY change the values after the "|"
+
+- Adding a Twitch Bot requires BOTH username and OAuth Key
+	- You can get an OAuth Key by signing into your Twitch Bot account at
+	https://twitchapps.com/tmi/
+
+- =OPTIONAL= means that you can leave the value empty without any errors
+
+=======================
+
+=OPTIONAL=
+**TWITCH BOT USERNAME**
+[Bot Username]|pachipachibot
+
+=OPTIONAL=
+**OAUTH KEY FOR TWITCH BOT**
+[Bot OAuth]|oauth:xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+=======================
+
+**TWITCH CHANNEL TO JOIN**
+[Twitch Channel]|pachipachibot
+
+=OPTIONAL=
+**MESSAGE SENT TO [Twitch Channel] AT START OF GAME**
+[Join Message]|I'm here to help with playing Love Live Mini-Game Project!
+
+**CAN START THE GAME/VARIOUS CASTER COMMANDS**
+[Broadcaster]|owlremember

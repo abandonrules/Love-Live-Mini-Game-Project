@@ -1,0 +1,63 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950 (ID=0x1402)
+    Vendor:   NVIDIA
+    VRAM:     2016 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Byron\Desktop\LLMGP\LLMGP_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Byron\Desktop\LLMGP\LLMGP_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Byron\Desktop\LLMGP\LLMGP_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Byron\Desktop\LLMGP\LLMGP_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Byron\Desktop\LLMGP\LLMGP_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Byron\Desktop\LLMGP\LLMGP_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Byron\Desktop\LLMGP\LLMGP_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Byron\Desktop\LLMGP\LLMGP_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Byron\Desktop\LLMGP\LLMGP_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Byron\Desktop\LLMGP\LLMGP_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Byron\Desktop\LLMGP\LLMGP_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Byron\Desktop\LLMGP\LLMGP_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Byron\Desktop\LLMGP\LLMGP_Data\Managed\TwitchChatter.dll (this message is harmless)
+Loading C:\Users\Byron\Desktop\LLMGP\LLMGP_Data\Managed\TwitchChatter.dll into Unity Child Domain
+- Completed reload, in  0.067 seconds
+Platform assembly: C:\Users\Byron\Desktop\LLMGP\LLMGP_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Byron\Desktop\LLMGP\LLMGP_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 3600x1080 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 1.371647 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.220794 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 374.
+Total: 7.237378 ms (FindLiveObjects: 0.029596 ms CreateObjectMapping: 0.021942 ms MarkObjects: 0.263817 ms  DeleteObjects: 6.921256 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.167788 ms
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 297.
+Total: 6.124701 ms (FindLiveObjects: 0.018625 ms CreateObjectMapping: 0.015563 ms MarkObjects: 0.229118 ms  DeleteObjects: 5.860118 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.406601 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 297.
+Total: 0.369956 ms (FindLiveObjects: 0.023728 ms CreateObjectMapping: 0.014287 ms MarkObjects: 0.265603 ms  DeleteObjects: 0.065571 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.800892 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 297.
+Total: 0.349545 ms (FindLiveObjects: 0.019645 ms CreateObjectMapping: 0.019390 ms MarkObjects: 0.247488 ms  DeleteObjects: 0.061999 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.833806 ms
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 374.
+Total: 4.016456 ms (FindLiveObjects: 0.046946 ms CreateObjectMapping: 0.027300 ms MarkObjects: 0.295965 ms  DeleteObjects: 3.645479 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: e3bc -> priority: 1 
+  Thread -> id: 13cc8 -> priority: 1 
