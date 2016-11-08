@@ -1,6 +1,6 @@
 # Love Live Mini-Game Project
 
-Developed for the [**Love Live Extra Life 2016**](http://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=232859) event.
+Developed for a contest entry in the [**Love Live Extra Life 2016**](http://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=232859) event.
 
 An [SIF](https://www.school-fes.klabgames.net/) fan-game developed in Unity that uses Twitch IRC.
 
