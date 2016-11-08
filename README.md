@@ -5,7 +5,7 @@ Developed for the [**Love Live Extra Life 2016**](http://www.extra-life.org/inde
 An [SIF](https://www.school-fes.klabgames.net/) fan-game developed in Unity that uses Twitch IRC.
 
 Download [link](https://drive.google.com/open?id=0B8JGGDkdaDPYemFOWExRUmk2cFU)  
-Gameplay video [link](http://google.com)
+Love Live Extra Life Showcase [link](https://youtu.be/o-3y8qms5Lw)
 
 If you have any questions or concerns, feel free to contact me at  
 byron.custodio@gmail.com
