@@ -4,7 +4,7 @@ Developed for a contest entry in the [**Love Live Extra Life 2016**](http://www.
 
 An [SIF](https://www.school-fes.klabgames.net/) fan-game developed in Unity that uses Twitch IRC.
 
-Mediafire Download [link](http://www.mediafire.com/file/6e7w3cq8c9r2gab/LLMGP.rar)  
+Mediafire Download [LINK](http://www.mediafire.com/file/6e7w3cq8c9r2gab/LLMGP.rar)  
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=o-3y8qms5Lw
 " target="_blank"><img src="http://img.youtube.com/vi/o-3y8qms5Lw/0.jpg" 
