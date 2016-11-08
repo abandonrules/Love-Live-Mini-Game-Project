@@ -1,8 +1,9 @@
 #Love Live Mini-Game Project
 
-Developed for the Love Live Extra Life 2016 event.
+Developed as a contest entry for the Love Live Extra Life 2016 event.
 
-This game requires you to stream on Twitch.tv. Go to the config file to modify Twitch Bot integration, Broadcaster information, etc.
+The game is made to be played and streamed on Twitch.  
+Go to config.txt to modify Twitch Bot integration, Broadcaster information, etc.
 
 If you have any questions or concerns, feel free to contact me at  
 byron.custodio@gmail.com
