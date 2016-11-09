@@ -17,3 +17,5 @@ EditorBuildSettings:
     path: Assets/Scenes/loading.unity
   - enabled: 1
     path: Assets/Scenes/pokerface.unity
+  - enabled: 1
+    path: Assets/Scenes/scoutingbox.unity

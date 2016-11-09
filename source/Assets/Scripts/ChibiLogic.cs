@@ -45,6 +45,16 @@ public class ChibiLogic : MonoBehaviour
     void Start()
     {
         GameManager.Instance.chibiLogic = this.gameObject.GetComponent<ChibiLogic>();
+        GameManager.Instance.ChooseGame(Random.Range(1, GameManager.Instance.numOfGames + 1));
+        
+        if (GameManager.Instance.nextGame == "pokerface")
+        {
+            gameInfo.text = "NEXT:\nPOKER FACE";
+        }
+        else if (GameManager.Instance.nextGame == "scoutingbox")
+        {
+            gameInfo.text = "NEXT:\nSCOUTING BOX";
+        }
 
         gameInfo.canvasRenderer.SetAlpha(1.0f);
         leaderInfo.canvasRenderer.SetAlpha(0.0f);
@@ -140,7 +150,7 @@ public class ChibiLogic : MonoBehaviour
         if (currTime >= targetTime)
         {
             CancelInvoke();
-            GameManager.Instance.LoadNewScene("pokerface");
+            GameManager.Instance.LoadNewGame();
         }
         else if (currTime == targetTime - 1)
         {

@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour {
     public string broadcaster;
 
     [Header("Scene Manager")]
+    public int numOfGames;
+    public string nextGame;
     public int chibiType;
     public int roundNum;
     public int targetRoundNum;
@@ -59,7 +61,15 @@ public class GameManager : MonoBehaviour {
 
     void CheckScene(Scene current, LoadSceneMode mode)
     {
-        StartCoroutine("GetConfigFile");
+        if (Application.isEditor)
+        {
+            twitchChannel = "pachipachibot";
+            broadcaster = "owlremember";
+        }
+        else
+        {
+            StartCoroutine("GetConfigFile");
+        }
         TwitchJoin();
         RemoveScripts();
 
@@ -149,7 +159,7 @@ public class GameManager : MonoBehaviour {
 
         TwitchChatClient.singleton.JoinChannel(twitchChannel);
 
-        if (joinMessage != "" && SceneManager.GetActiveScene().name == "title")
+        if (botUsername != "" && botOAuth != "" && joinMessage != "" && SceneManager.GetActiveScene().name == "title")
         {
             TwitchChatClient.singleton.SendMessage(twitchChannel, joinMessage);
         }
@@ -169,9 +179,27 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    public void LoadNewScene(string scene)
+    public void SwitchToLoading()
     {
-        SceneManager.LoadScene(scene);
+        SceneManager.LoadScene("loading");
+    }
+
+    public void LoadNewGame()
+    {
+        SceneManager.LoadScene(nextGame);
+    }
+
+    public void ChooseGame(int gameNum)
+    {
+        switch(gameNum)
+        {
+            case 1:
+                nextGame = "pokerface";
+                break;
+            case 2:
+                nextGame = "scoutingbox";
+                break;
+        }
     }
 
     void OnChatMessage(ref TwitchChatMessage msg)

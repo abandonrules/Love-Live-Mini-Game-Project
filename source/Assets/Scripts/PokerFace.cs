@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class PokerFace : MonoBehaviour {
 
@@ -192,11 +193,11 @@ public class PokerFace : MonoBehaviour {
             GameManager.Instance.pokerList.Clear();
             if (GameManager.Instance.roundNum == GameManager.Instance.targetRoundNum)
             {
-                GameManager.Instance.LoadNewScene("loading");
+                GameManager.Instance.SwitchToLoading();
             }
             else
             {
-                GameManager.Instance.LoadNewScene("pokerface");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
     }

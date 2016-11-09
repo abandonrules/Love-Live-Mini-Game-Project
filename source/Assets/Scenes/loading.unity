@@ -2174,7 +2174,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: 
+  m_Text: 'owlremember
+
+
+'
 --- !u!222 &1078104712
 CanvasRenderer:
   m_ObjectHideFlags: 0

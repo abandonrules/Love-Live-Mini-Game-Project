@@ -367,6 +367,8 @@ MonoBehaviour:
   twitchChannel: 
   joinMessage: 
   broadcaster: 
+  numOfGames: 2
+  nextGame: 
   chibiType: 0
   roundNum: 0
   targetRoundNum: 3
