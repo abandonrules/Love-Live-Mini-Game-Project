@@ -321,59 +321,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
---- !u!1 &1317884600
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1317884601}
-  - 114: {fileID: 1317884602}
-  m_Layer: 0
-  m_Name: Game Mananger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1317884601
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1317884600}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
---- !u!114 &1317884602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1317884600}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1eb4a8c6b0cd72b4ebe3cfdf02fd6e7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  printChatMessages: 0
-  botUsername: 
-  botOAuth: 
-  twitchChannel: 
-  joinMessage: 
-  broadcaster: 
-  numOfGames: 2
-  nextGame: 
-  chibiType: 0
-  roundNum: 0
-  targetRoundNum: 3
-  chibiLogic: {fileID: 0}
-  pokerFace: {fileID: 0}
 --- !u!1 &1383156613
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,6 +458,48 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!1001 &1389862491
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4000011465273378, guid: 7369a55c423ce654391d4692c68b55a1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011465273378, guid: 7369a55c423ce654391d4692c68b55a1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011465273378, guid: 7369a55c423ce654391d4692c68b55a1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011465273378, guid: 7369a55c423ce654391d4692c68b55a1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011465273378, guid: 7369a55c423ce654391d4692c68b55a1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011465273378, guid: 7369a55c423ce654391d4692c68b55a1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011465273378, guid: 7369a55c423ce654391d4692c68b55a1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011465273378, guid: 7369a55c423ce654391d4692c68b55a1, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7369a55c423ce654391d4692c68b55a1, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1554123263
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,7 +582,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1582619003}
-  - 114: {fileID: 1582619004}
   m_Layer: 0
   m_Name: Title
   m_TagString: Untagged
@@ -614,21 +602,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
---- !u!114 &1582619004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1582619002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7dbbc0d4d493c9459f189a8d886e55e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _userName: 
-  _oAuthPassword: 
-  _autoJoinChannels: []
-  _autoEnableWhispers: 0
 --- !u!1 &1708313907
 GameObject:
   m_ObjectHideFlags: 0

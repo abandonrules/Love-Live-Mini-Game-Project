@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour {
     public List<Leaderboards> leaderboard = new List<Leaderboards>();
     public List<ChibiList> chibiList = new List<ChibiList>();
     public List<PokerList> pokerList = new List<PokerList>();
+    public List<ScoutingList> scoutingList = new List<ScoutingList>();
 
     [Header("Twitch Chatter")]
     public bool printChatMessages;
